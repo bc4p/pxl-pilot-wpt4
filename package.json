@@ -1,0 +1,29 @@
+{
+  "name": "pxl-rpi",
+  "version": "1.0.0",
+  "description": "Stores transactions to the blockchain",
+  "main": "dist/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bc4p/pxl-pilot-wpt4.git"
+  },
+  "keywords": [
+    "blockchain",
+    "ethereum",
+    "iota",
+    "nodejs",
+    "web3"
+  ],
+  "author": "Robby Goetinck",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bc4p/pxl-pilot-wpt4/issues"
+  },
+  "homepage": "https://github.com/bc4p/pxl-pilot-wpt4#readme",
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
+}

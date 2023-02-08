@@ -1,0 +1,33 @@
+[
+    {
+        "from": "playerA",
+        "to": "playerB",
+        "energy": 10,
+        "euros": 0,
+        "datetime": "2023-02-08T07:59:42.987Z"
+    },
+
+    {
+        "from": "playerC",
+        "to": "playerD",
+        "energy": 12,
+        "euros": 0,
+        "datetime": "2023-02-08T07:59:38.787Z"
+    },
+
+    {
+        "from": "playerC",
+        "to": "playerA",
+        "energy": 0,
+        "euros": 18,
+        "datetime": "2023-02-08T07:59:43.123Z"
+    },
+
+    {
+        "from": "playerA",
+        "to": "playerD",
+        "energy": 0,
+        "euros": 20,
+        "datetime": "2023-02-08T07:59:40.548Z"
+    }
+]

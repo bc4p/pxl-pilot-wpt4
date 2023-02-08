@@ -11,13 +11,13 @@ async function main():Promise<void> {
 
     const account = web3.eth.accounts.privateKeyToAccount(process.env.BC4P_PRIVKEY!)
 
-    const buffer = fs.readFileSync(process.argv[2])
+    const buffer = fs.readFileSync(process.argv[2]) // command line argument with path to data
 
     const data = JSON.parse(buffer.toString())
 
     const data_signature = account.sign(JSON.stringify(data))
     
-    console.log(data_signature)
+    
 }
 
 main().catch(console.error)

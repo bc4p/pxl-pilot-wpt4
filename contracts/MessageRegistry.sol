@@ -16,9 +16,13 @@ contract MessageRegistry {
     registry[_hash].date = block.timestamp;
     registry[_hash].signature = _signature;
 
-    emit MessageStored(msg.sender, _hash);
+    emit MessageStored(msg.sender, registry[_hash]);
   }
 
-  event MessageStored(address indexed _sender, bytes32 _hash);
+  function getMessage(bytes32 _hash) public view virtual returns (Message memory) {
+    return registry[_hash];
+  }
+
+  event MessageStored(address indexed _sender, Message _message);
   
 }
